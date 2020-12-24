@@ -1,0 +1,100 @@
+<div class="tags">
+
+    <div class="tag-container">
+        <div class="tag">
+
+            <div class="tag-side tag-1-side">
+                <div class="tag-1-top"></div>
+                <div class="tag-text tag-1-text">
+                    NO.1<br />THING
+                    <div class="rule-shape rule-red">&starf;</div>
+                </div>
+            </div>
+
+            <div class="tag-side tag-1-side is-back">
+                <div class="tag-1-top"></div>
+                <div class="tag-text tag-1-text">
+                    宝贝对不起今天没有理你QAQ 可以原谅我吗？
+                    <div class="rule-shape">&starf;</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="tag-container">
+        <div class="tag">
+
+            <div class="tag-side tag-2-side">
+                <div class="tag-text tag-2-text">
+                    NO.2<br />Thing
+                    <div class="rule-diagonal"></div>
+                </div>
+            </div>
+
+            <div class="tag-side tag-2-side is-back">
+                <div class="tag-text tag-2-text">
+                    I will always love you <br /> My Witch <br /> My Soul <br /> My Vivian
+                    <div class="rule-diagonal"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="tag-container">
+        <div class="tag">
+
+            <div class="tag-side tag-3-side">
+                <div class="tag-text tag-3-text">
+                    NO.3<br />Thing
+                    <div class="rule-shape">&#10052;</div>
+                </div>
+            </div>
+
+            <div class="tag-side tag-3-side is-back">
+                <div class="tag-text-for-long tag-3-text">
+                    This is our first Christmas, we still have
+                    <p id="demo"></p>
+                    left
+
+<script>
+// Set the date we're counting down to Nov 29, 2519 3:40:00
+var countDownDate = new Date("NOV 29, 2520 3:40:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var years = Math.floor (distance / (1000 * 60 * 60 * 24 * 365.242))
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24) % 365.242);
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+
+  document.getElementById("demo").innerHTML = years + " years " + days + " days " + hours + " hours "
+  + minutes + " minutes " + seconds + " seconds ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+                    <div class="rule-shape">&#10052;</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
